@@ -1,36 +1,122 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+<div align="center">
+  <div>
+    <img src="https://img.shields.io/badge/-Next_JS-black?style=for-the-badge&logoColor=white&logo=nextdotjs&color=000000" alt="nextdotjs" />
+    <img src="https://img.shields.io/badge/-TypeScript-black?style=for-the-badge&logoColor=white&logo=typescript&color=3178C6" alt="typescript" />
+    <img src="https://img.shields.io/badge/-FireBase-black?style=for-the-badge&logoColor=white&logo=mongodb&color=008CDD" alt="mongodb" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
+  </div>
 
-First, run the development server:
+  <h3 align="center">Inventory management system</h3>
+</div>
+
+## 📋 <a name="table">Table of Contents</a>
+
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🕸️ [Snippets](#snippets)
+6. 🔗 [Links](#links)
+7. 🚀 [More](#more)
+
+## <a name="introduction">🤖 Introduction</a>
+
+
+An inventory management system designed to streamline the process of tracking, managing, and optimizing inventory levels. It ensures accurate monitoring of stock, reduces manual errors, and improves overall operational efficiency by providing real-time updates and insights into inventory status.
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Next.js
+- TypeScript
+- Firebase
+- Clerk
+- Cloudinary
+- TailwindCSS
+
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/moise10r/inventory-management-system
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**Installation**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Install the project dependencies using yarn:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+yarn install
+```
 
-## Learn More
+**Set Up Environment Variables**
 
-To learn more about Next.js, take a look at the following resources:
+Create a new file named `.env.local` in the root of your project and add the following content:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```env
+#NEXT
+NEXT_PUBLIC_SERVER_URL=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+#Firebase
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID=
 
-## Deploy on Vercel
+#CLERK
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
+WEBHOOK_SECRET=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_SIGN_OUT_URL=/sign-out
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+#CLOUDINARY
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+
+```
+
+
+**Running the Project**
+
+```bash
+yarn start
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
+## Authors
+
+👤 NGANULO RUSHANIKA Moise
+
+- GitHub: [@githubhandle](https://github.com/moise10r)
+- Twitter: [@twitterhandle](https://twitter.com/MRushanika)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/nganulo-rushanika-mo%C3%AFse-626139197/)
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
