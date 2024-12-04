@@ -1,3 +1,4 @@
+<img width="1728" alt="image" src="https://github.com/user-attachments/assets/cb0bc3f5-9256-4ba4-aad3-f6455220e753">
 
 <div align="center">
   <div>
@@ -8,6 +9,8 @@
   </div>
 
   <h3 align="center">Inventory management system</h3>
+  
+An inventory management system designed to streamline the process of tracking, managing, and optimizing inventory levels. It ensures accurate monitoring of stock, reduces manual errors and improves overall operational efficiency by providing real-time updates and insights into inventory status.
 </div>
 
 ## 📋 <a name="table">Table of Contents</a>
